@@ -9,7 +9,7 @@
  */
 
 // ORDER DE CARREGAMENTO DOS MODULOS
-$config['default'] = ['bootstrap', 'vendors', 'toastr', 'custom'];
+$config['default'] = ['bootstrap', 'plugin'];
 
 
 /**
@@ -21,22 +21,31 @@ $config['default'] = ['bootstrap', 'vendors', 'toastr', 'custom'];
 // Bootstrap
 $config['bootstrap'] = [
     'css' => [ 
-        'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css',
-        site_url('assets/vendors/bootstrap-datepicker-1.9.0-dist/css/bootstrap-datepicker.min.css')
+        site_url('assets/plugins/bootstrap/dist/css/bootstrap.min.css')
     ],
     'js'  => [
-        'https://unpkg.com/popper.js/dist/umd/popper.min.js',
-        'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js',
-        site_url('assets/vendors/bootstrap-datepicker-1.9.0-dist/js/bootstrap-datepicker.min.js')
+        site_url('assets/plugins/bootstrap/dist/js/bootstrap.min.js')
     ]
 ];
-// Toastr notification
-$config['toastr'] = [
+$config['plugin'] = [
     'css'   =>  [
-        site_url('assets/vendors/toastr/toastr.min.css')
+        site_url('assets/plugins/animate.css/animate.min.css'),
+        site_url('assets/plugins/slick-carousel/slick/slick.css'),
+        site_url('assets/plugins/font-awesome/css/font-awesome.min.css'),
+        site_url('assets/css/themify-icons.css'),
+        site_url('assets/css/themes/theme-blue.min.css'),
     ],
     'js'    =>  [
-        site_url('assets/vendors/toastr/toastr.min.js')
+        site_url('assets/plugins/imagesloaded/imagesloaded.pkgd.min.js'),
+        site_url('assets/plugins/masonry-layout/dist/masonry.pkgd.min.js'),
+        site_url('assets/plugins/slick-carousel/slick/slick.min.js'),
+        site_url('assets/plugins/waypoints/lib/jquery.waypoints.min.js'),
+        site_url('assets/plugins/typed.js/dist/typed.min.js'),
+        site_url('assets/plugins/easy-pie-chart/dist/jquery.easypiechart.min.js'),
+        site_url('assets/plugins/snapsvg/dist/snap.svg-min.js'),
+        site_url('assets/plugins/isotope-layout/dist/isotope.pkgd.min.js'),
+        'https://maps.googleapis.com/maps/api/js?key=AIzaSyBRMEkSrFLFkLKHyLVwT0DLLTqcUhUUZdM',
+        site_url('assets/js/core.js'),
     ]
 ];
 

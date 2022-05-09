@@ -272,9 +272,9 @@ class Template {
         if(count($this->js) > 0){
             foreach( $this->js as $js ) {
                 if(ENVIRONMENT == 'production')
-                echo '<script src="'.$js.'" type="text/javascript"></script>';
+                echo '<script defer src="'.$js.'" type="text/javascript"></script>';
                 else{
-                    echo '<script src="'.$js.'?version='.time().'" type="text/javascript"></script>';
+                    echo '<script defer src="'.$js.'" type="text/javascript"></script>';
                 }
             }
         }
@@ -294,7 +294,7 @@ class Template {
                     echo '<link href="'.$css.'" rel="stylesheet" media="screen"/>';
                 }
                 else{
-                    echo '<link href="'.$css.'?version='.time().'" rel="stylesheet" media="screen"/>';   
+                    echo '<link href="'.$css.'" rel="stylesheet" media="screen"/>';   
                 }
                 
             }

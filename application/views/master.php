@@ -7,27 +7,16 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta http-equiv="Content-Language" content="pt-br">
+
+        <!-- Favicons -->
+        <link rel="shortcut icon" href="assets/img/favicon.png">
+        <link rel="apple-touch-icon" href="assets/img/favicon_60x60.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="assets/img/favicon_76x76.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="assets/img/favicon_120x120.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="assets/img/favicon_152x152.png">
   
         <!-- TITLE -->
         <title><?PHP $template->print_title(); ?></title>
-  
-        <!-- JQUERY 3.4.1 -->
-        <!-- <script src="https://code.jquery.com/jquery-3.3.1.js "></script> -->
-        <script
-          src="https://code.jquery.com/jquery-3.4.1.min.js"
-          integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-          crossorigin="anonymous"></script>
-
-        
-        <!-- JQUERY UI -->
-        <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
-        integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
-        crossorigin="anonymous"></script>
-        
-        <!-- FONTAWESOME ICONS -->
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/v4-shims.css">
 
         <!-- DEFINE BASE PATH IN JS -->
         <script>
@@ -48,16 +37,13 @@
         </style>
 
     </head>
-      <body>      
+      <body class="navigation-panel page-scrolling dark-scheme">
 
         <!-- HEADER LOAD IN views/components/header.php -->
-        <header>
-          <?= $template->print_component('header') ?>
-        </header>
-
+        <?= $template->print_component('header') ?>            
 
         <!-- CONTENT LOAD IN views/pages/[page].php -->
-        <div id="content-wrapper">
+        <div id="content">
             <?php $template->print_page(); ?>
         </div>
 
@@ -67,6 +53,15 @@
         </footer>
         
         <!-- PRINT JS - CONFIG IN config/assets.php -->
+        <!-- JS Plugins -->
+        <script src="assets/plugins/jquery/dist/jquery.min.js"></script>
+        <script src="assets/plugins/jquery.appear/jquery.appear.js"></script>
+        <script src="assets/plugins/jquery.scrollto/jquery.scrollTo.min.js"></script>
+        <script src="assets/plugins/jquery.localscroll/jquery.localScroll.min.js"></script>
+        <script src="assets/plugins/jquery-validation/dist/jquery.validate.min.js"></script>
+        <script defer src="assets/plugins/tether/dist/js/tether.min.js"></script>
+        <script defer src="assets/plugins/bootstrap/dist/js/bootstrap.min.js"></script>
+
         <?php $template->print_js(); ?>
         
 
