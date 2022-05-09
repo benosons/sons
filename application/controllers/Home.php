@@ -31,7 +31,7 @@ class Home extends MY_Controller {
 
 	public function index(){
 		header("Access-Control-Allow-Origin: *");
-		$this->template->set_title('CodeHead');
+		$this->template->set_title('I\'m Here');
 		$this->template->render('master', 'home' );
 	}
 
