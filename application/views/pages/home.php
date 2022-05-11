@@ -2,7 +2,7 @@
     <section id="start" class="section section-home-basic fullheight dark bg-dark" data-scheme="dark" data-local-scroll>
         
         <!-- BG Image -->
-        <div class="bg-image-container"><img src="assets/img/photos/blog.jpg" alt=""></div>
+        <div class="bg-image-container"><img src="assets/img/photos/developer/Beno.jpg" alt=""></div>
 
         <!-- Section Content -->
         <div class="section-content">
