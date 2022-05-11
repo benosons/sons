@@ -8,7 +8,7 @@
         <div class="section-content">
             <div class="container-wide" data-local-scroll>
                 <div class="row align-items-center">
-                    <div class="col-xl-10 col-10">
+                    <div class="col-xl-12 col-12">
                         <h1 class="mb-1"><span class="typing">Call me <strong>Beno Sons</strong> - <em>I’m a knowledge worker</em></span><a href="#resume" class="btn-go show-after-typing ml-4"><i class="fa fa-angle-down"></i></a></h1>
                     </div>
                 </div>
@@ -64,7 +64,7 @@
     </section>
 
     <!-- Section - Resume -->
-    <section id="resume" class="section" data-scheme="light">
+    <section id="resume" class="section dark bg-dark" data-scheme="dark">
     
         <!-- Section Content -->
         <div class="section-content">
@@ -150,39 +150,39 @@
                                 <!-- Timeline Event -->
                                 <div class="timeline-event">
                                     <div class="timeline-event-point"></div>
-                                    <div class="timeline-event-date">2011 - 2015</div>
+                                    <div class="timeline-event-date text-muted">2011 - 2015</div>
                                     <div class="timeline-event-content">
-                                        <h5 class="timeline-event-title">Informatics Engineering</h5>
+                                        <h5 class="timeline-event-title text-muted">Informatics Engineering</h5>
                                         <!-- <span class="timeline-event-caption text-muted">University of Oxford</span> -->
                                     </div>
                                 </div>
                                 <!-- Timeline Event -->
                                 <div class="timeline-event">
                                     <div class="timeline-event-point"></div>
-                                    <div class="timeline-event-date">2016 - 2018</div>
+                                    <div class="timeline-event-date text-muted">2016 - 2018</div>
                                     <div class="timeline-event-content">
                                         <img src="https://khansia.co.id/attachments/khatulistiwalogotanpanama.png" width="30" class="mb-2" alt="">
-                                        <h5 class="timeline-event-title">Junior Programer</h5>
+                                        <h5 class="timeline-event-title text-muted">Junior Programer</h5>
                                         <span class="timeline-event-caption text-muted">KHANSIA Ltd.</span>
                                     </div>
                                 </div>
                                 <!-- Timeline Event -->
                                 <div class="timeline-event">
                                     <div class="timeline-event-point"></div>
-                                    <div class="timeline-event-date">2018 - 2020</div>
+                                    <div class="timeline-event-date text-muted">2018 - 2020</div>
                                     <div class="timeline-event-content">
                                         <img src="https://khansia.co.id/attachments/khatulistiwalogotanpanama.png" width="30" class="mb-2" alt="">
-                                        <h5 class="timeline-event-title">Senior Programer</h5>
+                                        <h5 class="timeline-event-title text-muted">Senior Programer</h5>
                                         <span class="timeline-event-caption text-muted">KHANSIA Ltd.</span>
                                     </div>
                                 </div>
                                 <!-- Timeline Event -->
                                 <div class="timeline-event">
                                     <div class="timeline-event-point"></div>
-                                    <div class="timeline-event-date">2021 - Now</div>
+                                    <div class="timeline-event-date text-muted">2021 - Now</div>
                                     <div class="timeline-event-content">
                                         <img src="https://khansia.co.id/attachments/khatulistiwalogotanpanama.png" width="30" class="mb-2" alt="">
-                                        <h5 class="timeline-event-title">Project Manager</h5>
+                                        <h5 class="timeline-event-title text-muted">Project Manager</h5>
                                         <span class="timeline-event-caption text-muted">KHANSIA Inc.</span>
                                     </div>
                                 </div>
@@ -248,10 +248,42 @@
                 </div>
                 <!-- Resume - Hobbies & Interests -->
                 <div class="resume-box image-edge text-center">
-                    <h5 class="mb-5">Hobbies &amp; Interests</h5>
+                    <h5 class="mb-5">Social Media</h5>
                     <!-- Image -->
                     <div class="image left">
                         <img src="assets/img/items/camera.png" alt="" class="animated" data-animation="fadeInLeft">
+                    </div>
+                    <!-- Hobby -->
+                    <div class="hobby">
+                        <div class="hobby-image">
+                            <div class="bg-image-container"><img src="assets/img/photos/hobby03.jpg" alt=""></div>
+                        </div>
+                        <div class="hobby-image-hover">
+                            <div class="bg-image-container"><img src="assets/img/photos/hobby03-hover.jpg" alt=""></div>
+                        </div>
+                        <div class="hobby-body">
+                            <div class="hobby-content">
+                                <h4 class="hobby-title">Snowboard</h4>
+                                <span class="hobby-caption">Speed &amp; Adrenaline</span>
+                            </div>
+                            <button class="hobby-btn btn btn-instagram btn-sm"><i class="fa fa-instagram"></i>my Instagram</button>
+                        </div>
+                    </div>
+                    <!-- Hobby -->
+                    <div class="hobby">
+                        <div class="hobby-image">
+                            <div class="bg-image-container"><img src="assets/img/photos/hobby03.jpg" alt=""></div>
+                        </div>
+                        <div class="hobby-image-hover">
+                            <div class="bg-image-container"><img src="assets/img/photos/hobby03-hover.jpg" alt=""></div>
+                        </div>
+                        <div class="hobby-body">
+                            <div class="hobby-content">
+                                <h4 class="hobby-title">Snowboard</h4>
+                                <span class="hobby-caption">Speed &amp; Adrenaline</span>
+                            </div>
+                            <button class="hobby-btn btn btn-linkedin btn-sm"><i class="fa fa-linkedin"></i>my Linkedin</button>
+                        </div>
                     </div>
                     <!-- Hobby -->
                     <div class="hobby">
@@ -266,7 +298,7 @@
                                 <h4 class="hobby-title">Motocross</h4>
                                 <span class="hobby-caption">Speed &amp; Adrenaline</span>
                             </div>
-                            <button class="hobby-btn btn btn-youtube btn-sm"><i class="fa fa-youtube"></i>Check my YouTube</button>
+                            <button class="hobby-btn btn btn-twitter btn-sm"><i class="fa fa-twitter"></i>my Twitter</button>
                         </div>
                     </div>
                     <!-- Hobby -->
@@ -284,51 +316,6 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Hobby -->
-                    <div class="hobby">
-                        <div class="hobby-image">
-                            <div class="bg-image-container"><img src="assets/img/photos/hobby03.jpg" alt=""></div>
-                        </div>
-                        <div class="hobby-image-hover">
-                            <div class="bg-image-container"><img src="assets/img/photos/hobby03-hover.jpg" alt=""></div>
-                        </div>
-                        <div class="hobby-body">
-                            <div class="hobby-content">
-                                <h4 class="hobby-title">Snowboard</h4>
-                                <span class="hobby-caption">Speed &amp; Adrenaline</span>
-                            </div>
-                            <button class="hobby-btn btn btn-instagram btn-sm"><i class="fa fa-instagram"></i>Check my Instagram</button>
-                        </div>
-                    </div>
-                </div>
-                <!-- Resume - Clients -->
-                <div class="resume-box image-edge text-center">
-                    <h5 class="mb-5">My Clients</h5>
-                    <!-- Image -->
-                    <div class="image right">
-                        <img src="assets/img/items/book.png" alt="" class="animated" data-animation="fadeInRight">
-                    </div>
-                    <div class="row">
-                        <div class="col-md-10 push-md-1">
-                            <ul class="spread-images">
-                                <li><a href="#"><img src="assets/img/logotypes/suelo.svg" alt="" class="gray-to-color"></a></li>
-                                <li><a href="#"><img src="assets/img/logotypes/envato.svg" alt="" class="gray-to-color"></a></li>
-                                <li><a href="#"><img src="assets/img/logotypes/html.svg" alt="" class="gray-to-color"></a></li>
-                                <li><a href="#"><img src="assets/img/logotypes/sass.svg" alt="" class="gray-to-color"></a></li>
-                            </ul>
-                            <div id="logotypes-more" class="collapse">
-                                <ul class="spread-images">
-                                    <li><a href="#"><img src="assets/img/logotypes/grunt.svg" alt="" class="gray-to-color"></a></li>
-                                    <li><a href="#"><img src="assets/img/logotypes/css.svg" alt="" class="gray-to-color"></a></li>
-                                    <li><a href="#"><img src="assets/img/logotypes/sketch.svg" alt="" class="gray-to-color"></a></li>
-                                </ul>
-                            </div>
-                            <button data-toggle="collapse" data-target="#logotypes-more" class="btn btn-toggle btn-primary btn-sm mt-4" aria-expanded="false">
-                                <span>View more</span>
-                                <span>View less</span>
-                            </button>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
@@ -336,7 +323,7 @@
     </section>
 
     <!-- Section - Services -->
-    <section id="services" class="section section-slider fullheight dark border-top" data-scheme="dark">
+    <section id="services" class="section section-slider fullheight dark border-top bg-dark" data-scheme="dark">
 
         <!-- Section Content -->
         <div class="section-content">
@@ -433,87 +420,9 @@
         </div>
 
     </section>
-
-    <!-- Section - Pricing -->
-    <section id="pricing" class="section bg-light" data-scheme="light">
     
-        <!-- Section Content -->
-        <div class="section-content">
-            <div class="container">
-                <!-- Section Header -->
-                <div class="section-header">
-                    <img src="assets/img/photos/developer/avatar-sm.png" alt="" class="section-header-image">
-                    <div class="section-header-content"><span class="typing">Check out my prices!</span></div>
-                </div>
-                <div class="row no-gutters">
-                    <!-- Pricing Table -->
-                    <div class="pricing-table col-md-4 animated" data-animation="fadeInRight">
-                        <div class="pricing-table-header">
-                            <h5 class="title">HTML to WordPress</h5>
-                            <span class="caption text-muted">2 busiess days</span>
-                        </div>
-                        <div class="pricing-table-price">
-                            <span class="description">from</span>
-                            <span class="price"><span>$</span>49</span>
-                            <span class="description">per view</span>
-                        </div>
-                        <ul class="pricing-table-list">
-                            <li>High-quality code</li>
-                            <li>Visual Composer</li>
-                            <li>Dedicated Support</li>
-                        </ul>
-                        <div class="pricing-table-submit" data-local-scroll>
-                            <a href="#contact" class="btn btn-dark btn-block">Hire me!</a>
-                        </div>
-                    </div>
-                    <!-- Pricing Table -->
-                    <div class="pricing-table featured col-md-4">
-                        <div class="pricing-table-header">
-                            <h5 class="title">PSD to HTML</h5>
-                            <span class="caption text-muted">2 busiess days</span>
-                        </div>
-                        <div class="pricing-table-price">
-                            <span class="description">from</span>
-                            <span class="price"><span>$</span>99</span>
-                            <span class="description">per view</span>
-                        </div>
-                        <ul class="pricing-table-list">
-                            <li>High-quality code</li>
-                            <li>Mobile Support</li>
-                            <li>W3C Valid Code</li>
-                            <li>Dedicated Support</li>
-                        </ul>
-                        <div class="pricing-table-submit" data-local-scroll>
-                            <a href="#contact" class="btn btn-primary btn-block">Hire me!</a>
-                        </div>
-                    </div>
-                    <!-- Pricing Table -->
-                    <div class="pricing-table col-md-4 animated" data-animation="fadeInLeft">
-                        <div class="pricing-table-header">
-                            <h5 class="title">Front-End Development</h5>
-                            <span class="caption text-muted">2 busiess days</span>
-                        </div>
-                        <div class="pricing-table-price">
-                            <span class="price"><span>$</span>39</span>
-                            <span class="description">per hour</span>
-                        </div>
-                        <ul class="pricing-table-list">
-                            <li>Well-organized code</li>
-                            <li>Quick turnaround</li>
-                            <li>Available 12h per day</li>
-                        </ul>
-                        <div class="pricing-table-submit" data-local-scroll>
-                            <a href="#contact" class="btn btn-dark btn-block">Hire me!</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </section>
-
     <!-- Section - Portfolio -->
-    <section id="portfolio" class="section" data-scheme="light">
+    <section id="portfolio" class="section dark bg-dark" data-scheme="dark">
     
         <!-- Section Content -->
         <div class="section-content">
@@ -633,7 +542,7 @@
     </section>
 
     <!-- Section - Testimonials -->
-    <section id="testimonials" class="section bg-primary-animated dark" data-scheme="dark">
+    <section id="testimonials" class="section bg-primary-animated dark bg-dark" data-scheme="dark">
     
         <!-- Section Content -->
         <div class="section-content">
@@ -697,7 +606,7 @@
     </section>
 
     <!-- Section - Blog -->
-    <section id="blog" class="section bg-light" data-scheme="light">
+    <section id="blog" class="section dark bg-dark" data-scheme="dark">
     
         <!-- Section Content -->
         <div class="section-content">

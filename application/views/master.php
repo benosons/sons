@@ -33,7 +33,13 @@
             @font-face{
                 font-family: 'montserrat';
                 src: url('<?php echo site_url('assets/fonts/montserrat/Montserrat-Regular.otf') ?>') format("opentype");
-            }        
+            }
+            
+            @media (max-width: 767px) {
+                .points-container{
+                display: none;
+                }
+            }
         </style>
 
     </head>
