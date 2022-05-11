@@ -9,7 +9,7 @@
             <div class="container-wide" data-local-scroll>
                 <div class="row align-items-center">
                     <div class="col-xl-12 col-12">
-                        <h1 class="mb-1"><span class="typing">Call me <strong>Beno Sons</strong> - <em>I’m a knowledge worker</em></span><a href="#resume" class="btn-go show-after-typing ml-4"><i class="fa fa-angle-down"></i></a></h1>
+                        <h1 class="mb-1"><span class="typing">Call me <strong>Beno Sons</strong> - I’m a knowledge worker</span><a href="#resume" class="btn-go show-after-typing ml-4"><i class="fa fa-angle-down"></i></a></h1>
                     </div>
                 </div>
             </div>
