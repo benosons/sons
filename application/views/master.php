@@ -9,7 +9,7 @@
         <meta http-equiv="Content-Language" content="pt-br">
 
         <!-- Favicons -->
-        <link rel="shortcut icon" href="assets/img/favicon.png">
+        <link rel="shortcut icon" href="assets/img/photos/developer/favicon.png">
         <link rel="apple-touch-icon" href="assets/img/favicon_60x60.png">
         <link rel="apple-touch-icon" sizes="76x76" href="assets/img/favicon_76x76.png">
         <link rel="apple-touch-icon" sizes="120x120" href="assets/img/favicon_120x120.png">

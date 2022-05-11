@@ -2,14 +2,14 @@
     <section id="start" class="section section-home-basic fullheight dark bg-dark" data-scheme="dark" data-local-scroll>
         
         <!-- BG Image -->
-        <div class="bg-image-container"><img src="assets/img/photos/developer/Beno.jpg" alt=""></div>
+        <div class="bg-image-container"><img src="assets/img/photos/developer/image_dark.jpg" alt=""></div>
 
         <!-- Section Content -->
         <div class="section-content">
             <div class="container-wide" data-local-scroll>
                 <div class="row align-items-center">
                     <div class="col-xl-10 col-10">
-                        <h1 class="mb-0"><span class="typing">Hello! Call me <strong>Beno Sons</strong> - <em>I’m a knowledge worker</em></span><a href="#resume" class="btn-go show-after-typing ml-4"><i class="fa fa-angle-down"></i></a></h1>
+                        <h1 class="mb-1"><span class="typing">Call me <strong>Beno Sons</strong> - <em>I’m a knowledge worker</em></span><a href="#resume" class="btn-go show-after-typing ml-4"><i class="fa fa-angle-down"></i></a></h1>
                     </div>
                 </div>
             </div>
@@ -18,7 +18,7 @@
         <!-- Points -->
         <div class="points-container">
             <!-- Point -->
-            <a href="#resume" class="point" data-x="30%" data-y="15%">
+            <a href="#resume" class="point" data-x="73.5%" data-y="7%">
                 <span class="point-indicator">
                     <svg class="point-indicator-circle" viewBox="0 0 48 48">
                         <circle cx="24" cy="24" r="23" stroke-width="2"></circle>
@@ -46,7 +46,7 @@
                 <span class="point-title">What can I do for you?</span>
             </a>
             <!-- Point -->
-            <a href="#portfolio" class="point" data-x="80%" data-y="50%">
+            <a href="#portfolio" class="point" data-x="82%" data-y="66%">
                 <span class="point-indicator">
                     <svg class="point-indicator-circle" viewBox="0 0 48 48">
                         <circle cx="24" cy="24" r="23" stroke-width="2"></circle>
