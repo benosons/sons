@@ -9,7 +9,7 @@
             <div class="container-wide" data-local-scroll>
                 <div class="row align-items-center">
                     <div class="col-xl-12 col-12">
-                        <h1 class="mb-1"><span class="typing">Call me <strong>Beno Sons</strong> - I’m a knowledge worker</span><a href="#resume" class="btn-go show-after-typing ml-4"><i class="fa fa-angle-down"></i></a></h1>
+                        <h1 class="mb-1"><span class="typing">Call me <strong>Beno Sons</strong> - I’m knowledge worker</span><a href="#resume" class="btn-go show-after-typing ml-4"><i class="fa fa-angle-down"></i></a></h1>
                     </div>
                 </div>
             </div>
@@ -191,7 +191,7 @@
                     </div>
                 </div>
                 <!-- Resume - Languages -->
-                <div class="resume-box image-edge row">
+                <div class="resume-box image-edge row" hidden>
                     <div class="col-md-7">
                         <!-- Image -->
                         <div class="image right">
@@ -247,7 +247,7 @@
                     </div>
                 </div>
                 <!-- Resume - Hobbies & Interests -->
-                <div class="resume-box image-edge text-center">
+                <div class="resume-box image-edge text-center" hidden>
                     <h5 class="mb-5">Social Media</h5>
                     <!-- Image -->
                     <div class="image left">
@@ -323,7 +323,7 @@
     </section>
 
     <!-- Section - Services -->
-    <section id="services" class="section section-slider fullheight dark border-top bg-dark" data-scheme="dark">
+    <section id="services" class="section section-slider fullheight dark border-top bg-dark" data-scheme="dark" hidden>
 
         <!-- Section Content -->
         <div class="section-content">
@@ -422,7 +422,7 @@
     </section>
     
     <!-- Section - Portfolio -->
-    <section id="portfolio" class="section dark bg-dark" data-scheme="dark">
+    <section id="portfolio" class="section dark bg-dark" data-scheme="dark" hidden>
     
         <!-- Section Content -->
         <div class="section-content">
@@ -542,7 +542,7 @@
     </section>
 
     <!-- Section - Testimonials -->
-    <section id="testimonials" class="section bg-primary-animated dark bg-dark" data-scheme="dark">
+    <section id="testimonials" class="section bg-primary-animated dark bg-dark" data-scheme="dark" hidden>
     
         <!-- Section Content -->
         <div class="section-content">
@@ -606,7 +606,7 @@
     </section>
 
     <!-- Section - Blog -->
-    <section id="blog" class="section dark bg-dark" data-scheme="dark">
+    <section id="blog" class="section dark bg-dark" data-scheme="dark" hidden>
     
         <!-- Section Content -->
         <div class="section-content">
@@ -717,7 +717,7 @@
     </section>
 
     <!-- Section - Contact -->
-    <section id="contact" class="section section-contact fullheight bg-dark dark" data-scheme="dark">
+    <section id="contact" class="section section-contact fullheight bg-dark dark" data-scheme="dark" hidden>
 
         <!-- BG Map -->
         <div id="google-map" class="bg-map bg-map-overlay dark" data-latitude="40.758895" data-longitude="-73.985131"></div>
