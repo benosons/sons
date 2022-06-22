@@ -143,7 +143,7 @@
                             </div>
                             <!-- Image -->
                             <div class="image right">
-                                <img src="assets/img/items/plant2.png" alt="" class="animated" data-animation="fadeInRight"> 
+                                <img src="assets/img/items/mac.png" alt="" class="animated" data-animation="fadeInRight"> 
                             </div>
                             <!-- Timeline -->
                             <div class="timeline">
