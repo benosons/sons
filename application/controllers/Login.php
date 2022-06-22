@@ -30,6 +30,7 @@ class Login extends MY_Controller {
 	}
 
 	public function index(){
+		print_r('ada');die;
 		$this->template->set("container", 'login');
 	}
 

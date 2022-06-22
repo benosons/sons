@@ -11,12 +11,13 @@
     <div class="navigation-inner">
         <!-- Navigation Primary -->
         <ul class="nav nav-primary-panel">
-            <li class="nav-item"><a href="#start" class="nav-link">Start</a></li>
+            <li class="nav-item active"><a href="#start" class="nav-link">Start</a></li>
             <li class="nav-item"><a href="#resume" class="nav-link">Resume</a></li>
             <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
             <li class="nav-item"><a href="#portfolio" class="nav-link">Portfolio</a></li>
             <li class="nav-item"><a href="#blog" class="nav-link">Latest Posts</a></li>
-            <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            <!-- <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li> -->
+            <li class="nav-item"><a href="/login" class="nav-link">Login</a></li>
         </ul>
     </div>
     

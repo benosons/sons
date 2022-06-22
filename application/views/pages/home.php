@@ -422,7 +422,7 @@
     </section>
     
     <!-- Section - Portfolio -->
-    <section id="portfolio" class="section dark bg-dark" data-scheme="dark" hidden>
+    <section id="portfolio" class="section dark bg-dark" data-scheme="dark">
     
         <!-- Section Content -->
         <div class="section-content">
@@ -435,9 +435,9 @@
                         <!-- Filter - Isotope -->
                         <ul class="nav nav-pills filter-isotope show-after-typing" data-filter-list="#works-list">
                             <li class="nav-item"><a href="#" class="nav-link active" data-filter="*">All</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link" data-filter=".Webdesign">Webdesign</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link" data-filter=".Webdevelopment">Webdevelopment</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link" data-filter=".Other">Other</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link" data-filter=".dicoding">Dicoding</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link" data-filter=".kominfo">Kominfo</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link" data-filter=".udemy">Udemy</a></li>
                         </ul>
                     </div>
                 </div>
@@ -445,93 +445,108 @@
             <div class="container-wide">
                 <!-- Filter - List Isotope -->
                 <div id="works-list" class="row filter-list-isotope">
-                    <div class="col-md-4 col-sm-6 Webdesign">
+                    <div class="col-md-4 col-sm-6 dicoding">
                         <!-- Image Box -->
                         <figure class="image-box">
                             <div class="image">
                                 <a href="case-study-developer.html" data-toggle="ajax-modal">
                                     <img src="assets/img/projects/project01.jpg" alt="">
-                                    <img src="assets/img/projects/project01-hover.jpg" alt="">
+                                    <!-- <img src="assets/img/projects/project01-hover.jpg" alt=""> -->
                                 </a>
                             </div>
                             <div class="content text-center">
-                                <h5 class="title"><a href="case-study-developer.html" data-toggle="ajax-modal">Being yourself</a></h5>
-                                <span class="caption text-muted">Webdesign</span>
+                                <h5 class="title"><a href="case-study-developer.html" data-toggle="ajax-modal">Memulai Pemrograman Dengan Python</a></h5>
+                                <span class="caption text-muted">Dicoding</span>
                             </div>
                         </figure>
                     </div>
-                    <div class="col-md-4 col-sm-6 Webdevelopment">
+                    <div class="col-md-4 col-sm-6 dicoding">
                         <!-- Image Box -->
                         <figure class="image-box">
                             <div class="image">
                                 <a href="case-study-developer.html" data-toggle="ajax-modal">
                                     <img src="assets/img/projects/project02.jpg" alt="">
-                                    <img src="assets/img/projects/project02-hover.jpg" alt="">
+                                    <!-- <img src="assets/img/projects/project02-hover.jpg" alt=""> -->
                                 </a>
                             </div>
                             <div class="content text-center">
-                                <h5 class="title"><a href="case-study-developer.html" data-toggle="ajax-modal">Workspace</a></h5>
-                                <span class="caption text-muted">Webdevelopment</span>
+                                <h5 class="title"><a href="case-study-developer.html" data-toggle="ajax-modal">Belajar Dasar Visualisasi Data</a></h5>
+                                <span class="caption text-muted">Dicoding</span>
                             </div>
                         </figure>
                     </div>
-                    <div class="col-md-4 col-sm-6 Webdevelopment">
+                    <div class="col-md-4 col-sm-6 dicoding">
                         <!-- Image Box -->
                         <figure class="image-box">
                             <div class="image">
                                 <a href="case-study-developer.html" data-toggle="ajax-modal">
                                     <img src="assets/img/projects/project03.jpg" alt="">
-                                    <img src="assets/img/projects/project03-hover.jpg" alt="">
+                                    <!-- <img src="assets/img/projects/project03-hover.jpg" alt=""> -->
                                 </a>
                             </div>
                             <div class="content text-center">
-                                <h5 class="title"><a href="case-study-developer.html" data-toggle="ajax-modal">Stay Active!</a></h5>
-                                <span class="caption text-muted">Webdevelopment</span>
+                                <h5 class="title"><a href="case-study-developer.html" data-toggle="ajax-modal">Dicoding Developer Coaching #27</a></h5>
+                                <span class="caption text-muted">Dicoding</span>
                             </div>
                         </figure>
                     </div>
-                    <div class="col-md-4 col-sm-6 Webdesign">
+                    <div class="col-md-4 col-sm-6 kominfo">
                         <!-- Image Box -->
                         <figure class="image-box">
                             <div class="image">
                                 <a href="case-study-developer.html" data-toggle="ajax-modal">
                                     <img src="assets/img/projects/project04.jpg" alt="">
-                                    <img src="assets/img/projects/project04-hover.jpg" alt="">
+                                    <!-- <img src="assets/img/projects/project04-hover.jpg" alt=""> -->
                                 </a>
                             </div>
                             <div class="content text-center">
-                                <h5 class="title"><a href="case-study-developer.html" data-toggle="ajax-modal">Close to Nature</a></h5>
-                                <span class="caption text-muted">Webdesign</span>
+                                <h5 class="title"><a href="case-study-developer.html" data-toggle="ajax-modal">Power Platform Fundamental</a></h5>
+                                <span class="caption text-muted">Kominfo</span>
                             </div>
                         </figure>
                     </div>
-                    <div class="col-md-4 col-sm-6 Webdevelopment">
+                    <div class="col-md-4 col-sm-6 skilvul">
                         <!-- Image Box -->
                         <figure class="image-box">
                             <div class="image">
                                 <a href="case-study-developer.html" data-toggle="ajax-modal">
                                     <img src="assets/img/projects/project05.jpg" alt="">
-                                    <img src="assets/img/projects/project05-hover.jpg" alt="">
+                                    <!-- <img src="assets/img/projects/project05-hover.jpg" alt=""> -->
                                 </a>
                             </div>
                             <div class="content text-center">
-                                <h5 class="title"><a href="case-study-developer.html" data-toggle="ajax-modal">Concrete Jungle</a></h5>
-                                <span class="caption text-muted">Webdevelopment</span>
+                                <h5 class="title"><a href="case-study-developer.html" data-toggle="ajax-modal">Coding di Skilvul Playgorund</a></h5>
+                                <span class="caption text-muted">Skilvul</span>
                             </div>
                         </figure>
                     </div>
-                    <div class="col-md-4 col-sm-6 Other">
+                    <div class="col-md-4 col-sm-6 udemy">
                         <!-- Image Box -->
                         <figure class="image-box">
                             <div class="image">
                                 <a href="case-study-developer.html" data-toggle="ajax-modal">
                                     <img src="assets/img/projects/project06.jpg" alt="">
-                                    <img src="assets/img/projects/project06-hover.jpg" alt="">
+                                    <!-- <img src="assets/img/projects/project06-hover.jpg" alt=""> -->
                                 </a>
                             </div>
                             <div class="content text-center">
-                                <h5 class="title"><a href="case-study-developer.html" data-toggle="ajax-modal">Architecture</a></h5>
-                                <span class="caption text-muted">Other</span>
+                                <h5 class="title"><a href="case-study-developer.html" data-toggle="ajax-modal">Git and GitHub for Beginner</a></h5>
+                                <span class="caption text-muted">Udemy</span>
+                            </div>
+                        </figure>
+                    </div>
+                    <div class="col-md-4 col-sm-6 udemy">
+                        <!-- Image Box -->
+                        <figure class="image-box">
+                            <div class="image">
+                                <a href="case-study-developer.html" data-toggle="ajax-modal">
+                                    <img src="assets/img/projects/project07.jpg" alt="">
+                                    <!-- <img src="assets/img/projects/project06-hover.jpg" alt=""> -->
+                                </a>
+                            </div>
+                            <div class="content text-center">
+                                <h5 class="title"><a href="case-study-developer.html" data-toggle="ajax-modal">Git and GitHub for Beginner</a></h5>
+                                <span class="caption text-muted">Udemy</span>
                             </div>
                         </figure>
                     </div>
