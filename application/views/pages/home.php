@@ -76,7 +76,7 @@
                 </div>
                 <!-- Resume - About -->
                 <div class="resume-box">
-                    <p class="lead mb-3">I'm 30 years old. I graduated at the University in Bandung, majoring in Informatics Engineering since 2015!</p>
+                    <p class="lead mb-3">I graduated at the University in Bandung, majoring in Informatics Engineering since 2015!</p>
                     <p class="lead mb-5">Through my 7 years of my career I have a strong background in Programing. My speciality is web development. I guarentee great communication, effective leadership and quick problem solving. I have worked for a <a href="https://khansia.co.id/" target="_blank">Company</a> as a Project Manager for their projects.</p>
                 </div>
                 <!-- Resume - Skills -->
