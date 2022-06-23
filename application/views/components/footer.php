@@ -8,10 +8,11 @@
                     <a href="#" class="btn btn-primary btn-sm">Download my CV</a>
                 </div>
                 <div class="spread-icons col-md-6 text-center text-md-right">
-                    <a href="https://www.instagram.com/benosons/" target="_blank" class="icon icon-sm icon-white icon-hover"><i class="fa fa-instagram"></i></a>
+                    <a href="https://www.github.com/benosons/" target="_blank" class="icon icon-sm icon-white icon-hover"><i class="fa fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/retno-sonjaya/" target="_blank" class="icon icon-sm icon-white icon-hover"><i class="fa fa-linkedin"></i></a>
+                    <a href="https://www.github.com/benosons/" target="_blank" class="icon icon-sm icon-white icon-hover"><i class="fa fa-instagram"></i></a>
                     <a href="https://twitter.com/benosons" target="_blank" class="icon icon-sm icon-white icon-hover"><i class="fa fa-twitter"></i></a>
                     <a href="https://www.facebook.com/benosons/" target="_blank" class="icon icon-sm icon-white icon-hover"><i class="fa fa-facebook"></i></a>
-                    <a href="https://www.linkedin.com/in/retno-sonjaya/" target="_blank" class="icon icon-sm icon-white icon-hover"><i class="fa fa-linkedin"></i></a>
                     <p class="text-muted mt-3 mb-0">&copy; <?php echo date("Y"); ?> Benosons | All Rights Reserved<br>
                     <!-- Made with love by <a href="http://suelo.pl" target="_blank" class="link-inherit">Suelo</a>.</p> -->
                 </div>
