@@ -42,9 +42,36 @@
             }
         </style>
 
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QVS08634C"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-5QVS08634C');
+        </script>
+
+        <script>
+            (function (i, s, o, g, r, a, m) {
+                window['GoogleAnalyticsObject'] = 'ga';
+                window['ga'] = window['ga'] || function () {
+                    (window['ga'].q = window['ga'].q || []).push(arguments)
+                }, window['ga'].l = 1 * new Date();
+                a = document.createElement('script'),
+                m = document.getElementsByTagName('script')[0];
+                a.async = 1;
+                a.src = '//www.google-analytics.com/analytics.js';
+                m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+            ga('create', 'G-5QVS08634C', 'auto');
+            ga('send', 'pageview');
+        </script>
+
     </head>
       <body class="navigation-panel page-scrolling dark-scheme">
-
+        
         <!-- HEADER LOAD IN views/components/header.php -->
         <?= $template->print_component('header') ?>            
 
