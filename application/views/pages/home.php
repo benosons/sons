@@ -76,8 +76,8 @@
                 </div>
                 <!-- Resume - About -->
                 <div class="resume-box">
-                    <p class="lead mb-3">I graduated at the University in Bandung, majoring in Informatics Engineering since 2015!</p>
-                    <p class="lead mb-5">Through my 7 years of my career I have a strong background in Programing. My speciality is web development. I guarentee great communication, effective leadership and quick problem solving. I have worked for a <a href="https://khansia.co.id/" target="_blank">Company</a> as a Project Manager for their projects.</p>
+                    <p class="lead mb-3">I'm 30 years old. I graduated at the University in Bandung, majoring in Informatics Engineering since 2015. Through my 7 years of my career I have a strong background in Programing.</p>
+                    <p class="lead mb-5">My speciality is web development. I guarentee great communication, effective leadership and quick problem solving. I have worked for a <a href="https://khansia.co.id/" target="_blank">Company</a> as a Project Manager for their projects.</p>
                 </div>
                 <!-- Resume - Skills -->
                 <div class="resume-box image-edge row">
@@ -438,6 +438,7 @@
                             <li class="nav-item"><a href="#" class="nav-link" data-filter=".dicoding">Dicoding</a></li>
                             <li class="nav-item"><a href="#" class="nav-link" data-filter=".kominfo">Kominfo</a></li>
                             <li class="nav-item"><a href="#" class="nav-link" data-filter=".udemy">Udemy</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link" data-filter=".coding_id">Coding.id</a></li>
                         </ul>
                     </div>
                 </div>
@@ -545,8 +546,23 @@
                                 </a>
                             </div>
                             <div class="content text-center">
-                                <h5 class="title"><a href="case-study-developer.html" data-toggle="ajax-modal">Git and GitHub for Beginner</a></h5>
+                                <h5 class="title"><a href="case-study-developer.html" data-toggle="ajax-modal">JavaScript, Bootstrap, and PHP - Certification for Beginner</a></h5>
                                 <span class="caption text-muted">Udemy</span>
+                            </div>
+                        </figure>
+                    </div>
+                    <div class="col-md-4 col-sm-6 coding_id">
+                        <!-- Image Box -->
+                        <figure class="image-box">
+                            <div class="image">
+                                <a href="case-study-developer.html" data-toggle="ajax-modal">
+                                    <img src="assets/img/projects/project08.jpg" alt="">
+                                    <!-- <img src="assets/img/projects/project06-hover.jpg" alt=""> -->
+                                </a>
+                            </div>
+                            <div class="content text-center">
+                                <h5 class="title"><a href="case-study-developer.html" data-toggle="ajax-modal">Create NextJS Component with Chakra UI</a></h5>
+                                <span class="caption text-muted">Coding.id</span>
                             </div>
                         </figure>
                     </div>
